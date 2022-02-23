@@ -4,7 +4,7 @@ angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($s
     $scope.contatos = [
         {nome: "Leandro", telefone: "9999-8888", data : new Date(), operadora: {nome: "Vivo", codigo: "15", categoria: "Celular"},cor : "yellow"},
         {nome: "Alan", telefone: "9999-8877", data : new Date(), operadora: {nome: "Tim", codigo: "14", categoria: "Celular"}, cor : "red"},
-        {nome: "Teste", telefone: "9999-8866", data : new Date(),operadora: {nome: "Claro", codigo: "16", categoria: "Celular"}, cor : "green"}
+        {nome: "Fabrício", telefone: "9999-8866", data : new Date(),operadora: {nome: "Claro", codigo: "16", categoria: "Celular"}, cor : "green"}
     ];
     $scope.operadoras = [
         {nome: "Vivo", codigo: 15, categoria: "Celular", preco: 2},
@@ -12,7 +12,6 @@ angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($s
         {nome: "Claro", codigo: 16, categoria: "Celular", preco: 3},
         {nome: "GVT", codigo: 13, categoria: "Fixo", preco: 1},
         {nome: "Embratel", codigo: 12, categoria: "Fixo", preco: 2}
-
     ];
     //3 - chegou na função
     $scope.adicionarContato = function (contato) {

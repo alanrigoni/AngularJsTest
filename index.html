@@ -2,9 +2,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Lista Telefonica de Alan</title>
+
+        <!--Referênciando Bootstrap e CSS-->
         <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="CSS/app.css">
 
+        <!--Importando demais scripts-->
         <script src="lib/angular/angular.js"></script>
         <script src="lib/angular/angular-locale_pt-br.js"></script>
         <script src="lib/angular/angular-messages.js"></script>
@@ -13,6 +16,8 @@
         <script src="js/filters/nameFilter.js"></script>
 
     </head>
+
+    <!--Faz o vínculo da View com o Controller é dessa relação que sai o scope.-->
     <body ng-controller="listaTelefonicaCtrl">
         <div class="jumbotron">
          <h3>{{app}}</h3>
